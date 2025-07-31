@@ -1,4 +1,5 @@
 import discord, asyncio, aiohttp, random
+import os
 from discord.ext import commands
 
 intents = discord.Intents.all()
