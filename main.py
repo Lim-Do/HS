@@ -3,7 +3,7 @@ from discord.ext import commands
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=".", intents=intents)
-token = "DISCORD_TOKEN"  # 토큰적으세요
+token = os.getenv("DISCORD_TOKEN") # 토큰적으세요
 
 
 async def send_embed_dm(user, title, description):
